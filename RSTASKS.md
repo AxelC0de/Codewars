@@ -7,7 +7,7 @@ String
 - [x] 7 kyu https://www.codewars.com/kata/disemvowel-trolls/
 - [ ] 7 kyu https://www.codewars.com/kata/mumbling/
 - [x] 7 kyu https://www.codewars.com/kata/highest-and-lowest/
-7 kyu https://www.codewars.com/kata/isograms/
+- [x] 7 kyu https://www.codewars.com/kata/isograms/
 7 kyu https://www.codewars.com/kata/char-code-calculation
 7 kyu https://www.codewars.com/kata/cat-and-mouse-2d-version/
 6 kyu https://www.codewars.com/kata/duplicate-encoder

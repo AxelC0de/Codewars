@@ -1,29 +1,22 @@
-function disemvowel(str) {
-	let arr = str.split('');
-	console.log(arr);
+function isIsogram(str) {
+	let arrComp = str.toLowerCase().split('')
+	// console.log(arrComp);
+	let arr = str.toLowerCase().split('')
+	// console.log(arr);
 
-	str = [];
-
-	for (let i = 0; i < arr.length; i++) {
-
-		if (arr[i] !== 'a'
-			&& arr[i] !== 'e'
-			&& arr[i] !== 'i'
-			&& arr[i] !== 'o'
-			&& arr[i] !== 'u'
-			&& arr[i] !== 'A'
-			&& arr[i] !== 'E'
-			&& arr[i] !== 'I'
-			&& arr[i] !== 'O'
-			&& arr[i] !== 'U'
-
-			)
-		{
-			str.push(arr[i])
+	let uniqueArr = new Set(arr)
+	// console.log(uniqueArr);
+	let backToArr = [...uniqueArr]
+	// console.log(backToArr);
+let res = ''
+	if (arrComp.length === backToArr.length || str.length === 0) {
+res = true
+} else {
+		res = false
 	}
-	}
-
-	str = str.join('')
-return str;
+	return console.log(res);
 }
-console.log(disemvowel('This website is for losers LOL!'));
+
+// isIsogram("Dermatoglyphics")
+// isIsogram("aba")
+isIsogram("moOse")
